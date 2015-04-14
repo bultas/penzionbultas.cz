@@ -1,0 +1,4389 @@
+/*
+
+
+
+Theme Name: Tealgray Retro Theme
+
+
+
+Theme URI: http://mip-design.com
+
+
+
+Version: 2.0
+
+
+
+Author: Mip Design Studio
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+/* Base
+
+
+
+------------------------------------------------------*/
+
+
+
+
+
+
+
+*
+
+
+
+{
+
+
+
+	margin: 0px;
+
+
+
+	padding: 0px;
+
+
+
+}
+
+
+
+
+
+
+
+body
+
+
+
+{
+
+
+
+	background: #80825b url("images/bg.jpg") repeat fixed 100% 0%;
+
+
+
+	font: normal 0.75em/145% Arial, Tahoma, sans-serif;
+
+
+
+	color: #45371b;
+
+
+
+	text-align: center;
+
+
+
+	padding-bottom: 20px;
+
+
+
+}
+
+
+
+
+
+
+
+p
+
+
+
+{
+
+
+
+	margin: 0px 0px 10px 0px;
+
+
+
+	line-height: 140%;
+
+
+
+	color: #45371b;
+
+
+
+}
+
+
+
+
+
+
+
+a
+
+
+
+{
+
+
+
+	outline: none;
+
+
+
+	text-decoration: underline;
+
+
+
+}
+
+
+
+
+
+
+
+a:hover
+
+
+
+{
+
+
+
+	text-decoration: none;
+
+
+
+}
+
+
+
+
+
+
+
+.hide
+
+
+
+{
+
+
+
+	display: none;
+
+
+
+}
+
+
+
+
+
+
+
+img
+
+
+
+{
+
+
+
+	border: 0px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Clearing method
+
+
+
+------------------------------------------------------*/
+
+
+
+
+
+
+
+.clearfix:after {
+
+
+
+    content: ".";
+
+
+
+    display: block;
+
+
+
+    clear: both;
+
+
+
+    visibility: hidden;
+
+
+
+    line-height: 0;
+
+
+
+    height: 0;
+
+
+
+}
+
+
+
+
+
+
+
+.clearfix {
+
+
+
+    display: inline-block;
+
+
+
+}
+
+
+
+
+
+
+
+html[xmlns] .clearfix {
+
+
+
+    display: block;
+
+
+
+}
+
+
+
+
+
+
+
+* html .clearfix {
+
+
+
+    height: 1%;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Layout
+
+
+
+------------------------------------------------------*/
+
+
+
+
+
+
+
+#page-container
+
+
+
+{
+
+
+
+	width: 900px;
+
+
+
+	margin: 0px auto;
+
+
+
+	text-align: left;
+
+
+
+}
+
+
+
+
+
+
+
+#page-navigation
+
+
+
+{
+
+
+
+	background: url("images/bg_page_navigation.png") no-repeat 0% 0%;
+
+
+
+	padding: 10px 0px 0px 20px;
+
+
+
+}
+
+
+
+
+
+
+
+#page-content
+
+
+
+{
+
+
+
+	background: url("images/bg_page_content.png") repeat-y 0% 0%;
+
+
+
+	padding: 0px 10px 0px 10px;
+
+
+
+}
+
+
+
+
+
+
+
+#page-footer
+
+
+
+{
+
+
+
+	background: url("images/bg_page_footer.png") no-repeat 0% 100%;
+
+
+
+	padding: 10px 25px 20px 20px;
+
+
+
+	text-align: right;
+
+
+
+}
+
+
+
+
+
+
+
+#content-wrapper
+
+
+
+{
+
+
+
+	padding: 20px 30px 40px 30px;
+
+
+
+}
+
+
+
+
+
+
+
+#content-main
+
+
+
+{
+
+
+
+	width: 525px;
+
+
+
+	float: left;
+
+
+
+	padding: 0px 0px 30px 0px;
+
+
+
+}
+
+
+
+
+
+
+
+#content-main.wide
+
+
+
+{
+
+
+
+	width: 820px;
+
+
+
+	float: none;
+
+
+
+}
+
+
+
+
+
+
+
+#content-sidebar
+
+
+
+{
+
+
+
+	width: 265px;
+
+
+
+	float: right;
+
+
+
+}
+
+
+
+
+
+
+
+#content-extras
+
+
+
+{
+
+
+
+	background: #b6b686 url("images/bg_content_extras.gif") repeat-x 0% 100%;
+
+
+
+	padding: 0px 25px 20px 25px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Branding
+
+
+
+------------------------------------------------------*/
+
+
+
+
+
+
+
+#branding
+
+
+
+{
+
+
+
+	height: 114px;
+
+
+
+	padding-right: 52px;
+
+
+
+	/*background: url("images/bg_page_search.png") no-repeat 596px 0px;*/
+
+
+
+	
+
+
+
+}
+
+
+
+
+
+
+
+#logo h1
+
+
+
+{
+
+
+
+	font: normal 3.6em/125% Georgia, "Times New Roman", Times, serif;
+
+
+
+	color: #f3efe9;
+
+
+
+	
+
+
+
+	float: left;
+
+
+
+	text-align: center;
+
+
+
+	padding: 15px 0px 0px 75px;
+
+
+
+}
+
+
+
+
+
+
+
+#logo h1 span
+
+
+
+{
+
+
+
+	font: italic 0.4em Georgia, "Times New Roman", Times, serif;
+
+
+
+	color: #d0d1c0;
+
+
+
+	display: block;
+
+
+
+}
+
+
+
+
+
+
+
+#search
+
+
+
+{
+
+
+
+	width: 240px;
+
+
+
+	float: right;
+
+
+
+	margin: 8px 0px 0px 0px;
+
+
+
+}
+
+
+
+
+
+
+
+#search em
+
+
+
+{
+
+
+
+	display: block;
+
+
+
+	font: bold 0.9em Arial, tahoma, sans-serif;
+
+
+
+	color: #b2b58d;
+
+
+
+	margin: 0px 0px 4px 0px;
+
+
+
+}
+
+
+
+
+
+
+
+#search .box
+
+
+
+{
+
+
+
+	background-color: #959b78;
+
+
+
+	padding: 2px;
+
+
+
+}
+
+
+
+
+
+
+
+#search input
+
+
+
+{
+
+
+
+	font: bold 1.0em Arial, tahoma, sans-serif;
+
+
+
+	color: #3e4027;
+
+
+
+	width: 165px;
+
+
+
+	float: left;
+
+
+
+	margin: 0px 6px 0px 0px;
+
+
+
+	padding: 2px;
+
+
+
+	border: 1px solid #959b78;
+
+
+
+	background-color: #959b78;
+
+
+
+}
+
+
+
+
+
+
+
+#search input.submit
+
+
+
+{
+
+
+
+	font: bold 1.0em Arial, tahoma, sans-serif;
+
+
+
+	color: #3e4027;
+
+
+
+	text-transform: uppercase;
+
+
+
+	width: 55px;
+
+
+
+	margin: 0px;
+
+
+
+	padding: 2px 1px 1px 1px;
+
+
+
+	border: none;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Page navigation
+
+
+
+------------------------------------------------------*/
+
+
+
+
+
+
+
+#page-navigation .rss
+
+
+
+{
+
+
+
+	background:  url("images/icon_rss.png") no-repeat 0% 0%;
+
+
+
+	display: block;
+
+
+
+	float: left;
+
+
+
+	width: 48px;
+
+
+
+	height: 48px;
+
+
+
+	text-indent: -9999px;
+
+
+
+	margin: -15px 15px 0px 0px;
+
+
+
+}
+
+
+
+
+
+
+
+#nav {
+
+
+
+  position: relative;
+
+
+
+	height: 40px;
+
+
+
+  padding: 0px;
+
+
+
+	margin: 0px;
+
+
+
+}
+
+
+
+
+
+
+
+#nav li {
+
+
+
+  float: left;
+
+
+
+  list-style: none;
+
+
+
+	z-index: 10;
+
+
+
+}
+
+
+
+
+
+
+
+#nav li.back {
+
+
+
+  background: #b7b788 url("images/page_nav_hover.gif") no-repeat 0% 100%;
+
+
+
+  width: 2px; 
+
+
+
+	height: 40px;
+
+
+
+  z-index: 8;
+
+
+
+  position: absolute;
+
+
+
+}
+
+
+
+
+
+
+
+#nav li a {
+
+
+
+	background: url("images/page_nav_default.gif") no-repeat 50% 100%;
+
+
+
+	font: bold 1.1em Georgia, "Times New Roman", Times, serif;
+
+
+
+	color: #595a37;
+
+
+
+	text-decoration: none;
+
+
+
+  z-index: 10;
+
+
+
+  display: block;
+
+
+
+  float: left;
+
+
+
+  position: relative;
+
+
+
+  overflow: hidden;
+
+
+
+	padding: 12px 15px 12px 15px;
+
+
+
+}
+
+
+
+
+
+
+
+#nav li li a, #nav li li a:visited, #nav li li a:active {
+
+
+
+	background: none;
+
+
+
+	font: bold 0.9em Georgia, "Times New Roman", Times, serif;
+
+
+
+	color: #fff;
+
+
+
+	text-decoration: none;
+
+
+
+	padding: 7px 5px 7px 15px
+
+
+
+}
+
+
+
+
+
+
+
+#nav li.current_page_item a {
+
+
+
+  color: #8c693c;
+
+
+
+}
+
+
+
+
+
+
+
+#nav li.current_page_item li a {
+
+
+
+  color: #fff;
+
+
+
+}
+
+
+
+
+
+
+
+#nav li a:hover, #nav li a:active, #nav li a:visited {
+
+
+
+  border: none;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Breadcrumbs
+
+
+
+------------------------------------------------------*/
+
+
+
+
+
+
+
+#breadcrumbs
+
+
+
+{
+
+
+
+	padding: 0px 20px 12px 30px;
+
+
+
+	background-color: #c5c59f;
+
+
+
+}
+
+
+
+
+
+
+
+#breadcrumbs a
+
+
+
+{
+
+
+
+	color: #45371b;
+
+
+
+}
+
+
+
+
+
+
+
+#breadcrumbs strong
+
+
+
+{
+
+
+
+	color: #45371b;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Page content
+
+
+
+------------------------------------------------------*/
+
+
+
+
+
+
+
+#content-head
+
+
+
+{
+
+
+
+	height: 240px;
+
+
+
+}
+
+
+
+
+
+
+
+#content-head img
+
+
+
+{
+
+
+
+	display: block;
+
+
+
+	border-top: 10px solid #b7b788;
+
+
+
+	border-bottom: 10px solid #c5c59f;
+
+
+
+	min-height: 220px;
+
+
+
+}
+
+
+
+
+
+
+
+#content-wrapper h2
+
+
+
+{
+
+
+
+	font: bold 1.6em Georgia, "Times New Roman", Times, serif;
+
+
+
+	color: #8c693c;
+
+
+
+	margin: 0px 0px 20px 0px;
+
+
+
+	padding: 0px 0px 5px 0px;
+
+
+
+	border-bottom: 1px dashed #584624;
+
+
+
+}
+
+
+
+
+
+
+
+#content-wrapper h2 span
+
+
+
+{
+
+
+
+	color: #7e8157;
+
+
+
+}
+
+
+
+
+
+
+
+#content-wrapper h3
+
+
+
+{
+
+
+
+	font: bold 1.3em/140% Arial, Tahoma, sans-serif;
+
+
+
+	color: #7f865a;
+
+
+
+	margin: 20px 0px 10px 0px;
+
+
+
+	text-transform: uppercase;
+
+
+
+}
+
+
+
+
+
+
+
+#content-wrapper h3 span
+
+
+
+{
+
+
+
+	color: #8c693c;
+
+
+
+}
+
+
+
+
+
+
+
+#content-wrapper h3.posted
+
+
+
+{
+
+
+
+	font: bold 1.0em/140% Arial, Tahoma, sans-serif;
+
+
+
+	color: #7f865a;
+
+
+
+	margin: -15px 0px 20px 0px;
+
+
+
+	text-transform: none;
+
+
+
+	xtext-align: right;
+
+
+
+}
+
+
+
+
+
+
+
+#content-wrapper h4
+
+
+
+{
+
+
+
+	font: normal 1.3em/140% Arial, Tahoma, sans-serif;
+
+
+
+	color: #8c693c;
+
+
+
+	margin: 20px 0px 10px 0px;
+
+
+
+}
+
+
+
+
+
+
+
+#content-wrapper p strong
+
+
+
+{
+
+
+
+	color: #8c693c;
+
+
+
+}
+
+
+
+
+
+
+
+#content-wrapper img
+
+
+
+{
+
+
+
+	border: 1px solid #bcb99e;
+
+
+
+	background-color: #dcd8c5;
+
+
+
+	margin: 0px 0px 10px 0px;
+
+
+
+	padding: 6px;
+
+
+
+}
+
+
+
+
+
+
+
+#content-wrapper a
+
+
+
+{
+
+
+
+	color: #8c693c;
+
+
+
+}
+
+
+
+
+
+
+
+#content-main ul
+
+
+
+{
+
+
+
+	margin: 0px 0px 15px 0px;
+
+
+
+	padding: 0px 0px 0px 16px;
+
+
+
+	list-style-type: square;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Page content - topics
+
+
+
+------------------------------------------------------*/
+
+
+
+
+
+
+
+#content-main .post-item
+
+
+
+{
+
+
+
+	margin: 0px 0px 20px 0px;
+
+
+
+}
+
+
+
+
+
+
+
+#content-main .post-item h2
+
+
+
+{
+
+
+
+	margin-bottom: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+#content-main .post-item h2 a
+
+
+
+{
+
+
+
+	text-decoration: none;
+
+
+
+}
+
+
+
+
+
+
+
+#content-main .post-item h2 a:hover
+
+
+
+{
+
+
+
+	color: #45371b;
+
+
+
+}
+
+
+
+
+
+
+
+#content-main .post-item h3
+
+
+
+{
+
+
+
+	font: bold 1.0em Georgia, "Times New Roman", Times, serif;
+
+
+
+	margin: 0px 0px 7px 0px;
+
+
+
+	padding: 3px 0px 0px 0px;
+
+
+
+	text-transform: none;
+
+
+
+}
+
+
+
+
+
+
+
+#content-main .post-item img
+
+
+
+{
+
+
+
+	float: left;
+
+
+
+	margin: 3px 15px 3px 0px;
+
+
+
+}
+
+
+
+
+
+
+
+#content-main .post-item a.detail
+
+
+
+{
+
+
+
+	font: bold 1.1em Arial, tahoma, sans-serif;
+
+
+
+}
+
+
+
+
+
+
+
+#post-navigation
+
+
+
+{
+
+
+
+	margin: 50px 0px 0px 0px;
+
+
+
+	padding: 8px;
+
+
+
+	background-color: #f1f1e7;
+
+
+
+}
+
+
+
+
+
+
+
+#post-navigation a
+
+
+
+{
+
+
+
+	display: block;
+
+
+
+	float: left;
+
+
+
+	font: bold 0.9em Arial, Tahoma, sans-serif;
+
+
+
+	color: #8c693c;
+
+
+
+	text-decoration: none;
+
+
+
+	text-transform: uppercase;
+
+
+
+}
+
+
+
+
+
+
+
+#post-navigation .next a
+
+
+
+{
+
+
+
+	float: right;
+
+
+
+}
+
+
+
+
+
+
+
+#post-navigation a:hover
+
+
+
+{
+
+
+
+	color: #45371b;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#post-indexing
+
+
+
+{
+
+
+
+	margin: 50px 0px 0px 0px;
+
+
+
+	padding: 8px;
+
+
+
+	background-color: #f1f1e7;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Page content - images
+
+
+
+------------------------------------------------------*/
+
+
+
+
+
+
+
+#content-main .alignleft
+
+
+
+{
+
+
+
+	float: left;
+
+
+
+	margin: 3px 15px 10px 0px;
+
+
+
+}
+
+
+
+
+
+
+
+#content-main .alignright
+
+
+
+{
+
+
+
+	float: right;
+
+
+
+	margin: 3px 0px 10px 15px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Page content - portfolio
+
+
+
+------------------------------------------------------*/
+
+
+
+
+
+
+
+#portfolio-list
+
+
+
+{
+
+
+
+	margin-top: 20px; 
+
+
+
+}
+
+
+
+
+
+
+
+#portfolio-list .portfolio-item
+
+
+
+{
+
+
+
+	width: 260px;
+
+
+
+	float: left;
+
+
+
+	margin: 0px 20px 25px 0px;
+
+
+
+}
+
+
+
+
+
+
+
+#portfolio-list .last
+
+
+
+{
+
+
+
+	margin-right: 0px;
+
+
+
+}
+
+
+
+
+
+
+
+#portfolio-list h3
+
+
+
+{
+
+
+
+	font: bold 1.0em Arial, tahoma, sans-serif;
+
+
+
+	color: #8c693c;
+
+
+
+	margin: 0px 0px 5px 0px;
+
+
+
+	padding: 0px;
+
+
+
+	text-transform: none;
+
+
+
+}
+
+
+
+
+
+
+
+#portfolio-list p
+
+
+
+{
+
+
+
+	font: normal 1.0em/130% Arial, tahoma, sans-serif;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Page content - comments
+
+
+
+------------------------------------------------------*/
+
+
+
+
+
+
+
+#content-main .commentlist
+
+
+
+{
+
+
+
+	margin: 25px 0px 0px 0px;
+
+
+
+	padding: 0px;
+
+
+
+	list-style: none;
+
+
+
+}
+
+
+
+
+
+
+
+.commentlist li
+
+
+
+{
+
+
+
+	margin: 0px;
+
+
+
+	padding: 0px 10px 0px 0px;
+
+
+
+	border-bottom: 1px solid #c5c59f;
+
+
+
+}
+
+
+
+
+
+
+
+.commentlist cite
+
+
+
+{
+
+
+
+	display: block;
+
+
+
+	padding-top: 12px;
+
+
+
+}
+
+
+
+
+
+
+
+#content-main .commentlist h4
+
+
+
+{
+
+
+
+	font-size: 1.0em;
+
+
+
+}
+
+
+
+
+
+
+
+#content-main .commentlist h4 strong
+
+
+
+{
+
+
+
+	font: bold 1.2em Georgia, "Times New Roman", Times, serif;
+
+
+
+}
+
+
+
+
+
+
+
+#content-main h4 img 
+
+
+
+{
+
+
+
+	float: left;
+
+
+
+	width: 53px;
+
+
+
+	height: 53px;
+
+
+
+	padding: 4px;
+
+
+
+	margin: 0px 20px 0px 0px;
+
+
+
+	background-color: #fff;
+
+
+
+	border: 1px solid #dcd8c5;
+
+
+
+}
+
+
+
+		
+
+
+
+.commentinfo {
+
+
+
+	float: left;
+
+
+
+	padding-top: 5px;
+
+
+
+	font-size: 0.9em;
+
+
+
+}
+
+
+
+
+
+
+
+.commentlist li.my_comment 
+
+
+
+{
+
+
+
+	background-color: #f1f1e7;
+
+
+
+	padding-left: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+.commenttext 
+
+
+
+{
+
+
+
+	font-size: 0.9em;
+
+
+
+}
+
+
+
+
+
+
+
+.commentlist code 
+
+
+
+{
+
+
+
+	font-size: 1.3em;
+
+
+
+	line-height: 120%;
+
+
+
+}
+
+
+
+
+
+
+
+#content-main .commentlist .wp-smiley 
+
+
+
+{
+
+
+
+	border: none;
+
+
+
+	padding: 0px;
+
+
+
+	background: none;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Page content - comment forms
+
+
+
+------------------------------------------------------*/
+
+
+
+
+
+
+
+#post-comment
+
+
+
+{
+
+
+
+	border-top: 5px solid #e2e2ca;
+
+
+
+	background-color: #f3f3ec;
+
+
+
+	padding: 20px;
+
+
+
+}
+
+
+
+
+
+
+
+#content-main #post-comment input, #content-main #post-comment textarea
+
+
+
+{
+
+
+
+	background-color: #fff;
+
+
+
+}
+
+
+
+
+
+
+
+#content-main label
+
+
+
+{
+
+
+
+	display: block;
+
+
+
+	font: bold 1.0em/120% Arial, tahoma, sans-serif;
+
+
+
+	color: #45371b;
+
+
+
+	float: left;
+
+
+
+	width: 180px;
+
+
+
+	margin: 5px 0px 10px 0px;
+
+
+
+}
+
+
+
+
+
+
+
+#content-main input, #content-main textarea
+
+
+
+{
+
+
+
+	
+
+
+
+	
+
+
+
+	background-color: #f3f3ec;
+
+
+
+	border: 1px solid #c5c59f;
+
+
+
+	font: normal 1.1em/120% Arial, tahoma, sans-serif;
+
+
+
+	color: #45371b;
+
+
+
+	margin: 0px 0px 10px 0px;
+
+
+
+	padding: 4px;
+
+
+
+}
+
+
+
+
+
+
+
+#content-main textarea
+
+
+
+{
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#content-main .comment
+
+
+
+{
+
+
+
+	display: block;
+
+
+
+	float: none;
+
+
+
+	margin: 0px 0px 5px 0px;
+
+
+
+	width: 470px;
+
+
+
+}
+
+
+
+
+
+
+
+#content-main label.comment
+
+
+
+{
+
+
+
+	margin-top: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+#content-main input.submit
+
+
+
+{
+
+
+
+	display: block;
+
+
+
+	float: left;
+
+
+
+	width: 150px;
+
+
+
+	background-color: #c5c59f;
+
+
+
+	border: 1px solid #c5c59f;
+
+
+
+	font: normal 1.2em/120% Georgia, Times, serif;
+
+
+
+	color: #45371b;
+
+
+
+	margin: 10px 0px 10px 0px;
+
+
+
+	padding: 5px;
+
+
+
+}
+
+
+
+
+
+
+
+#content-main input.submit:hover
+
+
+
+{
+
+
+
+	color: #8c693c;
+
+
+
+}
+
+
+
+
+
+
+
+#content-main input:focus, #content-main textarea:focus
+
+
+
+{
+
+
+
+	border: 1px solid #45371b;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Page content - comment form 7 plugin
+
+
+
+------------------------------------------------------*/
+
+
+
+
+
+
+
+#content-main .wpcf7
+
+
+
+{
+
+
+
+	margin-top: 50px;
+
+
+
+}
+
+
+
+
+
+
+
+#content-main .wpcf7 textarea
+
+
+
+{
+
+
+
+	width: 470px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Page content - sidebar
+
+
+
+------------------------------------------------------*/
+
+
+
+
+
+
+
+#content-sidebar h2
+
+
+
+{
+
+
+
+	font: bold 1.4em Georgia, "Times New Roman", Times, serif;
+
+
+
+	color: #fff;
+
+
+
+	text-transform: none;
+
+
+
+	margin: 0px 0px 10px 0px;
+
+
+
+	padding: 42px 5px 13px 15px;
+
+
+
+	border: none;
+
+
+
+	background: url("images/widget_titles/default.gif") no-repeat 0px 0px;
+
+
+
+}
+
+
+
+
+
+
+
+#sidebar
+
+
+
+{
+
+
+
+	margin: 0px;
+
+
+
+	padding: 0px;
+
+
+
+	list-style: none;
+
+
+
+}
+
+
+
+
+
+
+
+#sidebar li
+
+
+
+{
+
+
+
+	margin-bottom:10px;
+
+
+
+	padding-bottom: 15px;
+
+
+
+	background: #f1f1e8 url("images/bg_sidebar_widget.gif") no-repeat 0% 100%;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#sidebar li .textwidget
+
+
+
+{
+
+
+
+	color: #888e65;
+
+
+
+	padding: 0px 15px 0px 15px;
+
+
+
+}
+
+
+
+
+
+
+
+#sidebar li li
+
+
+
+{
+
+
+
+	margin-bottom: 2px;
+
+
+
+	padding: 0px 10px 0px 12px;
+
+
+
+	background: url("images/bullet_2.gif") no-repeat 0px 5px;
+
+
+
+}
+
+
+
+
+
+
+
+#sidebar li ul
+
+
+
+{
+
+
+
+	margin: 0px;
+
+
+
+	padding: 0px 0px 0px 15px;
+
+
+
+	list-style: none;
+
+
+
+	display: inline-block;
+
+
+
+}
+
+
+
+
+
+
+
+#sidebar li ul:after {
+
+
+
+  content: ".";
+
+
+
+  display: block;
+
+
+
+  clear: both;
+
+
+
+  visibility: hidden;
+
+
+
+  line-height: 0;
+
+
+
+  height: 0;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#sidebar li a
+
+
+
+{
+
+
+
+	font: normal 0.9em Arial, Tahoma, sans-serif;
+
+
+
+	text-transform: uppercase;
+
+
+
+	text-decoration: none;
+
+
+
+}
+
+
+
+
+
+
+
+#sidebar li.widget_recent_comments li
+
+
+
+{
+
+
+
+	background: url("images/icon_comment.gif") no-repeat 0px 5px;
+
+
+
+	padding-left: 17px;
+
+
+
+}
+
+
+
+
+
+
+
+#sidebar li.widget_recent_comments li a
+
+
+
+{
+
+
+
+	font: normal 1.0em Arial, Tahoma, sans-serif;
+
+
+
+	text-transform: none;
+
+
+
+	text-decoration: underline;
+
+
+
+}
+
+
+
+
+
+
+
+#sidebar li.widget_recent_entries ul
+
+
+
+{
+
+
+
+	
+
+
+
+	padding-left: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+#sidebar li.widget_recent_entries li
+
+
+
+{
+
+
+
+	background: url("images/icon_star.gif") no-repeat 0px 0px;
+
+
+
+	padding-left: 22px;
+
+
+
+	margin-bottom: 5px;
+
+
+
+}
+
+
+
+
+
+
+
+#sidebar li.widget_archive li
+
+
+
+{
+
+
+
+	background: url("images/icon_calendar.gif") no-repeat 0px 1px;
+
+
+
+	padding-left: 24px;
+
+
+
+}
+
+
+
+
+
+
+
+#sidebar li.widget_categories ul
+
+
+
+{
+
+
+
+	
+
+
+
+	padding-left: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+#sidebar li.widget_categories li
+
+
+
+{
+
+
+
+	
+
+
+
+	float: left;
+
+
+
+	background: url("images/icon_category.gif") no-repeat 0px 0px;
+
+
+
+	width: 105px;
+
+
+
+	margin: 0px 0px 2px 0px;
+
+
+
+	padding: 0px 0px 0px 22px;
+
+
+
+}
+
+
+
+
+
+
+
+#sidebar li.widget_tag_cloud a
+
+
+
+{
+
+
+
+	padding: 0px 0px 0px 15px;
+
+
+
+}
+
+
+
+
+
+
+
+#sidebar li.widget_flickrRSS img
+
+
+
+{
+
+
+
+	widht: 43px;
+
+
+
+	height: 43px;
+
+
+
+	border: 3px solid #fff;
+
+
+
+	padding: 0px;
+
+
+
+	margin: 0px 0px 8px 10px;
+
+
+
+}
+
+
+
+
+
+
+
+#sidebar li a:hover
+
+
+
+{
+
+
+
+	text-decoration: underline;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Portfolio list - sidebar
+
+
+
+------------------------------------------------------*/
+
+
+
+
+
+
+
+#project-list .project-item 
+
+
+
+{
+
+
+
+	border-bottom: 1px solid #e8e8d9;
+
+
+
+}
+
+
+
+
+
+
+
+#project-list .project-item a
+
+
+
+{
+
+
+
+	display: block;
+
+
+
+	padding: 10px;
+
+
+
+	color: #45371b;
+
+
+
+	text-decoration: none;
+
+
+
+}
+
+
+
+
+
+
+
+#content-sidebar #project-list h2
+
+
+
+{
+
+
+
+	font: bold 1.6em Georgia, "Times New Roman", Times, serif;
+
+
+
+	color: #8c693c;
+
+
+
+	margin: 0px 0px 20px 0px;
+
+
+
+	padding: 0px 0px 5px 0px;
+
+
+
+	background: none;
+
+
+
+	border-bottom: 1px dashed #584624;
+
+
+
+}
+
+
+
+
+
+
+
+#project-list .project-item h3
+
+
+
+{
+
+
+
+	font: bold 1.0em Arial, tahoma, sans-serif;
+
+
+
+	color: #8c693c;
+
+
+
+	margin: 0px 0px 5px 0px;
+
+
+
+	padding: 0px;
+
+
+
+	text-transform: none;
+
+
+
+	background: none;
+
+
+
+}
+
+
+
+
+
+
+
+#project-list .current a, #project-list .project-item a:hover
+
+
+
+{
+
+
+
+	background-color: #f3f3ec;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Page content - advertise
+
+
+
+------------------------------------------------------*/
+
+
+
+
+
+
+
+#advertise
+
+
+
+{
+
+
+
+	margin: 30px 0px 20px 0px;
+
+
+
+}
+
+
+
+
+
+
+
+#advertise img
+
+
+
+{
+
+
+
+	margin: 0px;
+
+
+
+	border: 0px;
+
+
+
+	padding: 0px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#advertise a
+
+
+
+{ 
+
+
+
+	display: block;
+
+
+
+	float: left;
+
+
+
+	margin: 0px 15px 10px 0px;
+
+
+
+}
+
+
+
+
+
+
+
+#advertise a.right
+
+
+
+{ 
+
+
+
+	margin-right: 0px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Page content - project list
+
+
+
+------------------------------------------------------*/
+
+
+
+
+
+
+
+#project-list h2
+
+
+
+{
+
+
+
+	font: bold 1.0em Arial, Tahoma, sans-serif;
+
+
+
+	color: #8c693c;
+
+
+
+	margin: 0px 0px 3px 0px;
+
+
+
+	padding: 0px;
+
+
+
+	text-transform: none;
+
+
+
+}
+
+
+
+
+
+
+
+#gallery 
+
+
+
+{
+
+
+
+	margin: 0px;
+
+
+
+	padding: 0px;
+
+
+
+}
+
+
+
+
+
+
+
+#gallery .thumb 
+
+
+
+{
+
+
+
+	display: block;
+
+
+
+}
+
+
+
+
+
+
+
+#gallery_changer li 
+
+
+
+{
+
+
+
+	display: inline;
+
+
+
+	padding: 0px 10px 0px 0px;
+
+
+
+}
+
+
+
+
+
+
+
+#gallery_changer .first 
+
+
+
+{
+
+
+
+	padding-left: 0px;
+
+
+
+	margin-left: 0px;
+
+
+
+	background: none;
+
+
+
+}
+
+
+
+
+
+
+
+#gallery_changer a 
+
+
+
+{
+
+
+
+	font: bold 1.2em Arial, tahoma, sans-serif;
+
+
+
+}
+
+
+
+
+
+
+
+#gallery_changer .current a 
+
+
+
+{
+
+
+
+	color: #45371b;
+
+
+
+	text-decoration: none;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Page content extras
+
+
+
+------------------------------------------------------*/
+
+
+
+
+
+
+
+#content-extras h3
+
+
+
+{
+
+
+
+	
+
+
+
+	font: bold 1.6em Georgia, "Times New Roman", Times, serif;
+
+
+
+	margin: 0px 0px 10px 0px;
+
+
+
+	padding: 25px 0px 20px 15px;
+
+
+
+	position: relative;
+
+
+
+}
+
+
+
+
+
+
+
+#content-extras a
+
+
+
+{
+
+
+
+	color: #90380e;
+
+
+
+}
+
+
+
+
+
+
+
+#extras-about { width: 261px; float: left; margin: -20px 25px 0px 0px; }
+
+
+
+#extras-comments { width: 261px; float: left; margin: -20px 0px 0px 0px; }
+
+
+
+#extras-flickr { width: 261px; float: right; margin-top: -20px; }
+
+
+
+
+
+
+
+
+
+
+
+#content-extras .inner
+
+
+
+{
+
+
+
+	padding: 0px 15px 0px 15px;
+
+
+
+}
+
+
+
+
+
+
+
+#extras-about .pdf
+
+
+
+{
+
+
+
+	display: block;
+
+
+
+	background: url("images/icon_pdf.gif") no-repeat 0% 50%;
+
+
+
+	padding: 18px 0px 18px 60px;
+
+
+
+	font: normal 1.0em/120% Arial, tahoma, sans-serif;
+
+
+
+	color: #90380e;
+
+
+
+}
+
+
+
+
+
+
+
+#extras-about .pdf strong
+
+
+
+{
+
+
+
+	display: block;
+
+
+
+	font-weight: bold;
+
+
+
+	text-decoration: none;
+
+
+
+}
+
+
+
+
+
+
+
+#extras-comments ul
+
+
+
+{
+
+
+
+	margin: -5px -5px 0px -5px;
+
+
+
+	padding: 0px;
+
+
+
+	list-style: none;
+
+
+
+}
+
+
+
+
+
+
+
+#extras-comments li
+
+
+
+{
+
+
+
+	border-bottom: 1px solid #abab7b;
+
+
+
+}
+
+
+
+
+
+
+
+#extras-comments li a
+
+
+
+{
+
+
+
+	display: block;
+
+
+
+	font: normal 1.0em/120% Arial, tahoma, sans-serif;
+
+
+
+	color: #45371b;
+
+
+
+	text-decoration: none;
+
+
+
+	padding: 5px 10px 5px 20px;
+
+
+
+	background: url("images/icon_comment_2.gif") no-repeat 3px 8px;
+
+
+
+}
+
+
+
+
+
+
+
+#extras-comments li a:hover
+
+
+
+{
+
+
+
+	background-color: #cbcba9;
+
+
+
+}
+
+
+
+
+
+
+
+#extras-comments li a span
+
+
+
+{
+
+
+
+	display: block;
+
+
+
+	color: #90380e;
+
+
+
+}
+
+
+
+
+
+
+
+#extras-flickr img
+
+
+
+{
+
+
+
+	float: left;
+
+
+
+	widht: 43px;
+
+
+
+	height: 43px;
+
+
+
+	border: 3px solid #fff;
+
+
+
+	margin: 0px 8px 8px 0px;
+
+
+
+}
+
+
+
+
+
+
+
+#extras-flickr a:hover img
+
+
+
+{
+
+
+
+	border: 3px solid #90380e;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Page footer
+
+
+
+------------------------------------------------------*/
+
+
+
+
+
+
+
+#page-footer p
+
+
+
+{
+
+
+
+	font: normal 1.0em/150% Arial, tahoma, sans-serif;
+
+
+
+	color: #45371b;
+
+
+
+	text-decoration: none;
+
+
+
+	margin: 0px;
+
+
+
+}
+
+
+
+
+
+
+
+#page-footer a
+
+
+
+{
+
+
+
+	color: #45371b;
+
+
+
+}
+
+
+
+
+
+
+
+/* widgets demo
+
+
+
+------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+#qtranslate-3 {float:right;}
+
+
+
+#qtranslate-3 ul
+
+
+
+{
+
+
+
+	padding-top:30px;
+
+
+
+	padding-right:20px;
+
+
+
+
+
+
+
+width: 100%;
+
+
+
+
+
+
+
+text-align: center;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#qtranslate-3 li { display: inline; }
+
+
+
+#qtranslate-3 li a
+
+
+
+{
+
+
+
+text-decoration: none;
+
+
+
+
+
+
+
+color: #FFF;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+.qtrans_language_chooser { list-style-type:none; float:right; padding-top:30px; padding-right:20px; }
+
+
+
+.qtrans_language_chooser li {  margin-right:7px; display: inline;  }
+
+
+
+.qtrans_language_chooser li a{text-decoration: none; color: #FFF;}
+
+
+
+.qtrans_flag { border:1px solid #b6b6b6 }
+
+
+
+
+
+/*Překlady*/
+
+
+#lang_sel {
+	float: right;
+	font-family: verdana,arial,sans-serif;
+	height: 32px;
+	padding-right: 40px;
+	padding-top: 15px;
+	position: relative;
+	z-index: 99;
+}
+
+
+
+
+
+
+/* ceník tabulka
+
+
+
+------------------------------------------------------*/
+
+
+
+.radka1 {background-color: #EEE;}
+
+
+
+.termin { padding: 5px;
+
+width: 220px; }
+
+
+
+.cena1 { width: 80px; text-align: center;}
+
+
+
+
+
+
+
+
