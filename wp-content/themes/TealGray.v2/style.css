@@ -31,6 +31,22 @@ Author: Mip Design Studio
 
 
 
+/* Customize */
+
+
+.ngg-gallery-thumbnail {
+	float: left;
+	margin: 5px;
+}
+
+
+.ngg-galleryoverview {
+	clear: both;
+}
+
+
+
+
 
 
 
@@ -594,7 +610,7 @@ html[xmlns] .clearfix {
 
 
 
-	
+
 
 
 
@@ -622,7 +638,7 @@ html[xmlns] .clearfix {
 
 
 
-	
+
 
 
 
@@ -970,7 +986,7 @@ html[xmlns] .clearfix {
 
 
 
-  width: 2px; 
+  width: 2px;
 
 
 
@@ -1954,7 +1970,7 @@ html[xmlns] .clearfix {
 
 
 
-	margin-top: 20px; 
+	margin-top: 20px;
 
 
 
@@ -2206,7 +2222,7 @@ html[xmlns] .clearfix {
 
 
 
-#content-main h4 img 
+#content-main h4 img
 
 
 
@@ -2246,7 +2262,7 @@ html[xmlns] .clearfix {
 
 
 
-		
+
 
 
 
@@ -2274,7 +2290,7 @@ html[xmlns] .clearfix {
 
 
 
-.commentlist li.my_comment 
+.commentlist li.my_comment
 
 
 
@@ -2298,7 +2314,7 @@ html[xmlns] .clearfix {
 
 
 
-.commenttext 
+.commenttext
 
 
 
@@ -2318,7 +2334,7 @@ html[xmlns] .clearfix {
 
 
 
-.commentlist code 
+.commentlist code
 
 
 
@@ -2342,7 +2358,7 @@ html[xmlns] .clearfix {
 
 
 
-#content-main .commentlist .wp-smiley 
+#content-main .commentlist .wp-smiley
 
 
 
@@ -2486,11 +2502,11 @@ html[xmlns] .clearfix {
 
 
 
-	
 
 
 
-	
+
+
 
 
 
@@ -3088,7 +3104,7 @@ html[xmlns] .clearfix {
 
 
 
-	
+
 
 
 
@@ -3164,7 +3180,7 @@ html[xmlns] .clearfix {
 
 
 
-	
+
 
 
 
@@ -3188,7 +3204,7 @@ html[xmlns] .clearfix {
 
 
 
-	
+
 
 
 
@@ -3312,7 +3328,7 @@ html[xmlns] .clearfix {
 
 
 
-#project-list .project-item 
+#project-list .project-item
 
 
 
@@ -3540,7 +3556,7 @@ html[xmlns] .clearfix {
 
 
 
-{ 
+{
 
 
 
@@ -3568,7 +3584,7 @@ html[xmlns] .clearfix {
 
 
 
-{ 
+{
 
 
 
@@ -3640,7 +3656,7 @@ html[xmlns] .clearfix {
 
 
 
-#gallery 
+#gallery
 
 
 
@@ -3664,7 +3680,7 @@ html[xmlns] .clearfix {
 
 
 
-#gallery .thumb 
+#gallery .thumb
 
 
 
@@ -3684,7 +3700,7 @@ html[xmlns] .clearfix {
 
 
 
-#gallery_changer li 
+#gallery_changer li
 
 
 
@@ -3708,7 +3724,7 @@ html[xmlns] .clearfix {
 
 
 
-#gallery_changer .first 
+#gallery_changer .first
 
 
 
@@ -3736,7 +3752,7 @@ html[xmlns] .clearfix {
 
 
 
-#gallery_changer a 
+#gallery_changer a
 
 
 
@@ -3756,7 +3772,7 @@ html[xmlns] .clearfix {
 
 
 
-#gallery_changer .current a 
+#gallery_changer .current a
 
 
 
@@ -3804,7 +3820,7 @@ html[xmlns] .clearfix {
 
 
 
-	
+
 
 
 
@@ -4379,11 +4395,3 @@ width: 220px; }
 
 
 .cena1 { width: 80px; text-align: center;}
-
-
-
-
-
-
-
-
